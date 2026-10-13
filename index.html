@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOBILE TECH - Think Tech & Think Smart</title>
+    <!-- Google Fonts for English & Tamil -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Tamil:wght@400;600;700&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Top Announcement Bar -->
+    <div class="top-bar">
+        <div class="marquee-text" data-i18n="top_marquee">
+            BEST SMARTPHONE RETAILER IN SOUTH ASIA — THINK TECH & THINK SMART
+        </div>
+    </div>
+
+    <!-- Header & Navigation -->
+    <header class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <a href="#"><img src="assets/images/logo.png" alt="Mobile Tech Logo"></a>
+            </div>
+
+            <div class="search-box">
+                <input type="text" data-i18n-placeholder="search_placeholder" placeholder="Search smartphones, accessories...">
+                <button class="search-btn">🔍</button>
+            </div>
+
+            <div class="nav-actions">
+                <!-- English / Tamil Language Toggle -->
+                <div class="lang-switch">
+                    <button id="btn-en" class="active" onclick="switchLanguage('en')">EN</button>
+                    <button id="btn-ta" onclick="switchLanguage('ta')">தமிழ்</button>
+                </div>
+                <a href="#about" class="icon-link" data-i18n="nav_about">About Us</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Branch Locations Bar -->
+    <section class="locations-bar">
+        <div class="location-item">
+            <span class="icon">📍</span>
+            <div>
+                <strong data-i18n="matara_branch">Matara Branch</strong>
+                <p>078 541 6253</p>
+            </div>
+        </div>
+        <div class="location-item">
+            <span class="icon">📍</span>
+            <div>
+                <strong data-i18n="colombo_branch">Colombo Branch</strong>
+                <p>078 541 6254</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1 data-i18n="hero_title">Shop the Latest Mobile Phones in Sri Lanka</h1>
+            <p data-i18n="hero_subtitle">Authorized Dealer for Apple, Samsung, Xiaomi, and more with 1-Year Warranty.</p>
+        </div>
+    </section>
+
+    <!-- Category Grid -->
+    <section class="categories">
+        <h2 data-i18n="categories_title">Explore Categories</h2>
+        <div class="category-grid">
+            <div class="cat-card">
+                <img src="assets/images/smartphones.jpg" alt="Smartphones">
+                <h3 data-i18n="cat_phones">Smartphones</h3>
+            </div>
+            <div class="cat-card">
+                <img src="assets/images/speakers.jpg" alt="Speakers">
+                <h3 data-i18n="cat_speakers">Speakers</h3>
+            </div>
+            <div class="cat-card">
+                <img src="assets/images/earphones.jpg" alt="Earphones">
+                <h3 data-i18n="cat_earphones">Earphones</h3>
+            </div>
+            <div class="cat-card">
+                <img src="assets/images/watches.jpg" alt="Smart Watches">
+                <h3 data-i18n="cat_watches">Smart Watches</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- About & Footer Section -->
+    <footer id="about" class="footer">
+        <div class="footer-container">
+            <div class="footer-info">
+                <h3>MOBILETECH (PVT) LTD</h3>
+                <p data-i18n="about_text">
+                    Sri Lanka's leading mobile phone store, offering a vast range of smartphones, accessories, and repair services. Enjoy a seamless shopping experience with high-quality devices to suit all budgets.
+                </p>
+            </div>
+            <div class="footer-contacts">
+                <h4 data-i18n="contact_us">Contact & Support</h4>
+                <p><strong>Hotline:</strong> +94 701 425 478</p>
+                <p><strong>Repair Center:</strong> +94 701 280 031</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/94785416253?text=Hi%20Mobile%20Tech,%20I%20have%20an%20inquiry" class="whatsapp-float" target="_blank" title="Chat on WhatsApp">
+        💬
+    </a>
+
+    <script src="js/lang.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
